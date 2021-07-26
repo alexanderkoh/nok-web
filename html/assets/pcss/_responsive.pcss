@@ -1,0 +1,147 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 992px - 1199px
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn {
+    font-size: 14px;
+  }
+  #content {
+    & .heading {
+      margin-bottom: 30px;
+    }
+  }
+  .count-down {
+    margin-bottom: 30px;
+    & .countdown-row {
+      & .countdown-amount { font-size: 80px; }
+    }
+  }
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  input[type="text"], input[type="email"], input[type="date"], input[type="time"], input[type="search"], input[type="password"],
+  input[type="number"], input[type="tel"], textarea.form-control {
+    font-size: 14px;
+  }
+  .layer {
+    & #content {
+      padding-left: 50px;
+    }
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// 768px - 991px
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    &.show-panel {
+      & .side-panel {
+        transform: translateX(-650px);
+      }
+    }
+  }
+  .btn {
+    font-size: 14px;
+  }
+  #content {
+    & .heading {
+      margin-bottom: 20px;
+    }
+  }
+  .count-down {
+    margin-bottom: 10px;
+    & .countdown-row {
+      & .countdown-amount { font-size: 60px; margin-bottom: -10px; }
+    }
+  }
+  h1 {
+    font-size: 46px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  input[type="text"], input[type="email"], input[type="date"], input[type="time"], input[type="search"], input[type="password"],
+  input[type="number"], input[type="tel"], textarea.form-control {
+    font-size: 13px;
+  }
+  .layer {
+    & #content {
+      padding-left: 50px;
+    }
+  }
+  p {
+    font-size: 13px;
+  }
+  .side-panel {
+    width: 650px; right: -650px;
+  }
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// max to 767px
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 767px) {
+  body {
+    &.show-panel {
+      & .side-panel {
+        transform: translateX(0);
+        & .nav-btn {
+          top: 30px; left: inherit; right: 40px;
+        }
+      }
+    }
+  }
+  .btn {
+    font-size: 14px;
+  }
+  #content {
+    & .heading {
+      margin-bottom: 20px;
+      & .large {
+        font-size: 38px;
+      }
+    }
+  }
+  .count-down {
+    margin-bottom: 10px;
+    & .countdown-row {
+      & .countdown-section {
+        &:after { display: none; }
+      }
+      & .countdown-amount { font-size: 30px; margin-bottom: 0px; margin-right: 20px; }
+      & .countdown-period { font-size: 8px; margin-left: 0; }
+    }
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  input[type="text"], input[type="email"], input[type="date"], input[type="time"], input[type="search"], input[type="password"],
+  input[type="number"], input[type="tel"], textarea.form-control {
+    font-size: 13px;
+  }
+  .layer {
+    & #content {
+      padding-left: 25px; padding-right: 25px;
+    }
+  }
+  .modal {
+    & .modal-dialog {
+      width: 100%; margin: 0; padding: 20px;
+    }
+  }
+  p {
+    font-size: 13px;
+  }
+  .side-panel {
+     width: 100%; transform: translateX(100%); right: 0;
+   }
+}
